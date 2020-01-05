@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ibarra Real Nova', serif;
+	background: url(https://i2.wp.com/welovebudapest.com/en/wp-content/uploads/sites/3/2017/07/4cc28c9a0171b35f01e4eae2ef071bdb.jpg?zoom=2.625&resize=412%2C213&ssl=1);
+	background-size: cover;
+}
+
+.header{
+	padding: 20px;
+	text-align: center;
+	background: #ffff99;
+}
+
+.title{
+	margin-bottom: 10px;
+}
+
+h1{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #b37700;
+}
+
+.info{
+	margin-bottom: 10px;
+}
+
+.info p{
+	text-decoration: none;
+	font-weight: bold;
+	color: #4d3300;
+}
+
+.button{
+	border-radius: 20px;
+	background-color: white;
+	border: 2px solid #e7e7e7;
+	cursor: pointer;
+	font-size: 13px;
+    color: #b37700;
+}
+a{
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: white;
+	border: 2px solid #e7e7e7;
+	cursor: pointer;
+	font-size: 13px;
+	color: #b37700;
+}
+
+.main {
+    margin: 15px 0px 25px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+	background: black;
+}
+
+#templateReview{
+	background-color:  white !important;
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	justify-content: space-between;
+}
+
+.thingReview{
+	background: #A52A2A;
+	font-weight: bold;
+	color: #e7e7e7;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	margin: 10px;
+	padding: 10px;
+	border: #444422;
+	width: 300px;
+	height: 30px;
+}
+
+.deleteButton{
+	width: 50px;
+	background:#A52A2A;
+	color: #e7e7e7;
+	text-shadow: 2px 2px #000000;
+	margin-bottom: 5px;
+}

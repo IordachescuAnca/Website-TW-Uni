@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Reviews</title>
+  	<link rel="stylesheet" href="review.css">
+  	<link rel="stylesheet" href="sendreview.html">
+</head>
+
+
+<body>
+
+	<header>
+		<div class="header">
+			<div class="title">
+				<h1>Our client reviews</h1>
+			</div>
+			<div class="info">
+				<p>We listen. We advise. We design. Together. Our success is measured by results, the most important being how our clients feel about their experience with us. Happy customers and ongoing relationships are what we strive for.</p>
+			</div>
+			<a href="sendreview.html" target="_blank">Add a review</a>
+				<!--<button type="button" class="button">Add a review</button>-->
+			<button type="button" class="button" onclick="getReviews()">Get Reviews</button>
+			<a href="modify.html" target="_blank">Modify a review</a>
+				<!--<button type="button" class="button">Modify a review</button>-->
+			<a href="delete.html" target="_blank">Delete a review</a>
+				<!--<button type="button" class="button">Delete a review</button>-->
+		</div>
+	</header>
+
+
+	<div id="main">
+
+	</div>
+
+	<template>
+			<div class="templateReview" id = "templateReview">
+			<div class="thingReview" id="templateName">Name</div>
+			<div class="thingReview" id="templateMessage">Message</div>
+				<div class="thingReview" id="templateDate">Date</div>
+			<button class="deleteButton" id="deleteButton" ONCLICK="deleteDiv()"> X </button>
+		</div>
+	</template>
+
+<script src="script.js"></script>
+</body>
+</html>

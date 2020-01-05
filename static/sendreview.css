@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Ibarra Real Nova', serif;
+}
+ 
+body{
+  background: url(https://i.pinimg.com/originals/d1/03/e1/d103e1812a2f772698da71bb1b4823fc.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+ 
+.wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+ 
+.contact-form{
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+ 
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+ 
+.input-fields,
+.msg{
+  width: 48%;
+}
+ 
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  color: black;
+  width: 100%;
+}
+ 
+.msg textarea{
+  height: 212px;
+}
+ 
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: black;
+}
+
+.custom-select{
+  margin-top: 40px;
+}
+ 
+.btn {
+    background: black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+ 
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}
