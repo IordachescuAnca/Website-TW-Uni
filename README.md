@@ -1,6 +1,6 @@
 # Website project for university
 
-Built a website for a cafe([New York Cafe](http://www.newyorkcafe.hu/)) using both Frontend and Backend.
+Built a website for a cafe:coffee: ([New York Cafe](http://www.newyorkcafe.hu/)) using both Frontend and Backend.
 
 ## Frontend
 
@@ -18,4 +18,4 @@ Built a website for a cafe([New York Cafe](http://www.newyorkcafe.hu/)) using bo
 
 ## Backend
 
-* Created API to serve Frontend
+* Created API to serve Frontend.
